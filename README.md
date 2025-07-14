@@ -1,6 +1,6 @@
 # telco_churn
 
-I analyzed the IBM Telco Customer Churn dataset, a widely-used sample dataset from IBM Cognos Analytics that tracks customer churn patterns for a fictional telecommunications company. The dataset serves as an excellent foundation for analyzing customer retention patterns and identifying factors that influence customer churn in the telecommunications industry. My analysis focused on understanding the relationship between service usage patterns, customer tenure, and churn rates to uncover actionable insights for customer retention strategies.
+I analyzed the [IBM Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), a widely-used sample dataset from IBM Cognos Analytics that tracks customer churn patterns for a fictional telecommunications company. The dataset serves as an excellent foundation for analyzing customer retention patterns and identifying factors that influence customer churn in the telecommunications industry. My analysis focused on understanding the relationship between service usage patterns, customer tenure, and churn rates to uncover actionable insights for customer retention strategies.
 
 ## Executive Summary
 
