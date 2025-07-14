@@ -130,7 +130,7 @@ Testing whether tenure impacts churn differently for low-service customers */
 
 SELECT 
     total_services,
-    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*) * 100 AS churn_rate_high_svc
+    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*) * 100 AS churn_rate_low_svc
 FROM (
     SELECT 
         (CASE WHEN phone_service = 'Yes' THEN 1 ELSE 0 END +
@@ -153,7 +153,7 @@ Removing tenure filter to see overall pattern for low-service customers */
 
 SELECT 
     total_services,
-    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*) * 100 AS churn_rate_high_svc
+    SUM(CASE WHEN churn = 'Yes' THEN 1 ELSE 0 END) / COUNT(*) * 100 AS churn_rate_low_svc
 FROM (
     SELECT 
         (CASE WHEN phone_service = 'Yes' THEN 1 ELSE 0 END +
