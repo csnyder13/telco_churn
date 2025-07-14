@@ -4,12 +4,6 @@ I analyzed the [IBM Telco Customer Churn dataset](https://www.kaggle.com/dataset
 
 ## Executive Summary
 
-**Service Adoption Paradox**: Customers with 3 services face the highest churn risk (42.50%) and shortest tenure (17.3 months), creating a critical "danger zone" that must be navigated to reach high-value segments.
-
-**Early Tenure Vulnerability**: All customer segments experience 25-45% higher churn rates in their first 32 months, with high-service customers (5+) showing extreme early vulnerability (45-50% churn) before becoming virtually churn-proof.
-
-**Strategic Imperative**: Success requires bypassing the 3-service tier through accelerated progression and providing intensive early-tenure support, as 8-service customers generate 13.7x more revenue but only after surviving the initial high-risk period.
-
 (Note: this README is a work in progress and will be updated as soon as I can with all the details.)
 
 ## Business Problem
